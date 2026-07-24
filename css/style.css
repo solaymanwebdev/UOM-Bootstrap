@@ -1,0 +1,90 @@
+/* All common css start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    display: inline-block;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All common css end */
+
+/* Header Section Start */
+
+
+
+.navbar img{
+    width: 80px;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    color: #222222;
+    position: relative;
+    padding: 0 !important;
+    margin: 15px;
+}
+
+.menuIcon, i{
+    color: #222222;
+}
+
+
+.menuIcon{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.nav-link::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    visibility: none;
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+
+.nav-link:hover.nav-link::after{
+    visibility: visible;
+    opacity: 1;
+    width: 26px;
+}
+/* Header Section End */
+
+/* Offer Part Start */
+
+/* Offer Part End */
