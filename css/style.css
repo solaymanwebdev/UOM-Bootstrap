@@ -87,9 +87,14 @@ p {
 }
 /* Header Section End */
 
-/* Offer Part Start */
+/* Banner Part Start */
+#bannerSection{
+    
+}
+/* Banner Part End */
 
-/* Offer Part End */
+
+Banner Part End */
 
 /* Add Section Start */
 #addSection{
@@ -161,7 +166,7 @@ p {
 }
 
 /* Product Section End */
-/*  Section counterDown Start*/
+/*CounterDown Section Start*/
 #counterDown{
     padding-top: 360px;
     padding-bottom: 45px;
@@ -170,4 +175,45 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* Product Section End */
+.shopBtn a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #212529;
+    text-transform: uppercase;
+    position: relative;
+}
+.shopBtn a::after{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    
+    
+}
+.countDown h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+    padding: 20px;
+    position: relative;
+}
+.countDown h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #767676;
+}
+
+.countDown span {
+    position: absolute;
+    contain: "";
+    right: 0;
+    top: 17px;
+}
+.fota{
+    font-size: 30px;
+}
+
+/*CounterDown Section End*/
