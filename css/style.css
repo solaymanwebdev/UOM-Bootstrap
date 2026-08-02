@@ -201,19 +201,56 @@ Banner Part End */
     position: relative;
 }
 .countDown h4{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #767676;
 }
 
-.countDown span {
+.countDown {
+    position: relative;
+    
+}
+.fota {
+    font-size: 30px;
     position: absolute;
     contain: "";
     right: 0;
-    top: 17px;
-}
-.fota{
-    font-size: 30px;
+    top: 10px;
 }
 
 /*CounterDown Section End*/
+/* Limited Product Part Start */
+
+#limitedProduct{
+    margin-top: 105px;
+    margin-bottom: 95px;
+}
+.eiditionTittle h3{
+    font-size: 35px;
+    font-weight: 400;
+    color: #212529;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.editionContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.editionCard h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    padding: 10px 0
+}
+.editionCard h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+}
+.editionCard i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+}
+/* Limited Product Part End */
