@@ -15,6 +15,7 @@
     <!-- All css file start -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- All css file end -->
 </head>
@@ -65,8 +66,22 @@
     <!-- Header Section End -->
     <!-- Banner Section Start -->
     <section id="bannerSection">
-        <div class="">
-            <div class="row">
+        <div class="container">
+            <div class="row bannerSlider">
+                <div class="col-lg-12">
+                    <a href="#">
+                        <picture>
+                            <img src="images/banner01.png" alt="images/banner01.png" class="img-fluid w-100">
+                        </picture>
+                    </a>
+                </div>
+                <div class="col-lg-12">
+                    <a href="#">
+                        <picture>
+                            <img src="images/banner01.png" alt="images/banner01.png" class="img-fluid w-100">
+                        </picture>
+                    </a>
+                </div>
                 <div class="col-lg-12">
                     <a href="#">
                         <picture>
@@ -246,28 +261,28 @@
                     <div class="row mt-4 text-center">
                         <div class="col-lg-3">
                             <div class="countDown">
-                                <h3>05</h3>
+                                <h3 id="days">05</h3>
                                 <h4>DAYS</h4>
                                 <span class="fota">:</span>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="countDown">
-                                <h3>07</h3>
+                                <h3 id="hours">07</h3>
                                 <h4>HOURS</h4>
                                 <span class="fota">:</span>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="countDown">
-                                <h3>09</h3>
+                                <h3 id="minutes">09</h3>
                                 <h4>MINS</h4>
                                 <span class="fota">:</span>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="countDown">
-                                <h3>03</h3>
+                                <h3 id="seconds">03</h3>
                                 <h4>SEC</h4>
                             </div>
                         </div>
@@ -357,6 +372,107 @@
     </section>
     <!-- Limited Product Parat ENd -->
 
+    <!-- @UOMO Section Start -->
+    <section id="uomoPart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 text-center m-auto">
+                    <div class="uomoTittle">
+                        <h3>@UOMO</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-5">
+                        <img src="images/Unslash/photo-01.jfif" alt="photo-01.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-5">
+                        <img src="images/Unslash/photo-02.jfif" alt="photo-02.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-5">
+                        <img src="images/Unslash/photo-03.jfif" alt="photo-03.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-5">
+                        <img src="images/Unslash/photo-04.jfif" alt="photo-04.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-5">
+                        <img src="images/Unslash/photo-05.jfif" alt="photo-05.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-5">
+                        <img src="images/Unslash/photo-06.jfif" alt="photo-06.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-4">
+                        <img src="images/Unslash/photo-07.jfif" alt="photo-07.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-4">
+                        <img src="images/Unslash/photo-08.jfif" alt="photo-08.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-4">
+                        <img src="images/Unslash/photo-09.jfif" alt="photo-09.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-4">
+                        <img src="images/Unslash/photo-10.jfif" alt="photo-10.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-4">
+                        <img src="images/Unslash/photo-11.jfif" alt="photo-11.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="uomoImg mt-4">
+                        <img src="images/Unslash/photo-12.jfif" alt="photo-12.jfif" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center text-center">
+                   <div class="serviceContent">
+                     <img src="images/shipping.png" alt="shipping.png" class="img-fluid">
+                    <h3>FAST AND FREE DELIVERY</h3>
+                    <h5>Free delivery for all orders over $140</h5>
+                   </div>
+                </div>
+                <div class="col-lg-4 text-center text-center">
+                   <div class="serviceContent">
+                     <img src="images/headphone.png" alt="headphone.png" class="img-fluid">
+                    <h3>24/7 CUSTOMER SUPPORT</h3>
+                    <h5>Friendly 24/7 customer support</h5>
+                   </div>
+                </div>
+                <div class="col-lg-4 text-center text-center">
+                   <div class="serviceContent">
+                     <img src="images/shield.png" alt="shield.png.png" class="img-fluid">
+                    <h3>MONEY BACK GUARANTEE</h3>
+                    <h5>We return money within 30 days</h5>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @UOMO Section ENd -->
+
+
+
 
 
 
@@ -366,6 +482,7 @@
     <!-- All js file start -->
     <script src="css/bootstrap.min.css"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
     <!-- All js file end -->
 </body>
