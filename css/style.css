@@ -303,3 +303,93 @@ Banner Part End */
     color: #767676;
 }
 /* @UOMO Part End */
+
+/* Footer Part Start */
+#FooterPart{
+    background-color: #CFCDCD;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+.footerIcon h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    line-height: 24px;
+}
+.footerIcon h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+   
+}
+.footerIcon h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+     padding-top: 10px;
+    padding-bottom: 50px;
+}
+.iconFlex{
+    display: flex;
+    justify-content:start;
+    margin-bottom: 130px;
+    align-items: center;
+    column-gap: 40px;
+}
+.companyDiv h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #212529;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.companyDiv h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    padding-bottom: 30px;
+}
+.paymentDiv input{
+    padding: 20px 25px;
+    background: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+    
+}
+.paymentDiv button{
+    border: none;
+    background: #fff;
+    padding: 20px 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+}  
+.paymentDiv h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #212529;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.paymentDiv h4{
+     font-size: 14px;
+    font-weight: 500;
+    color: #222; 
+    padding: 20px;
+}
+.paymentDiv h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222; 
+}
+.paymentDiv button{
+    border: none;
+    background: #fff;
+}
+/* Footer Part End */
