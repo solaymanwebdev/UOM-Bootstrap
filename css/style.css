@@ -85,6 +85,24 @@ p {
     opacity: 1;
     width: 26px;
 }
+
+.prev{
+    font-size: 30px;
+    color: palevioletred;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.next{
+    font-size: 30px;
+    color: rgba(172, 120, 137, 0.664);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
 /* Header Section End */
 
 /* Banner Part Start */
@@ -255,27 +273,6 @@ Banner Part End */
 }
 /* Limited Product Part End */
 
-.prev{
-    font-size: 30px;
-    color: pink;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 30px;
-    z-index: 9;
-    
-}
-.next{
-    font-size: 30px;
-    color: pink;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 30px;
-    z-index: 9;
-    
-}
-
 /* @UOMO Part Start */
  #uomoPart{
     padding-top: 105px;
@@ -309,6 +306,7 @@ Banner Part End */
     background-color: #CFCDCD;
     padding-bottom: 30px;
     padding-top: 100px;
+    position: relative;
 }
 .footerIcon h6{
     font-size: 14px;
@@ -358,17 +356,19 @@ Banner Part End */
     font-size: 14px;
     font-weight: 400;
     color: #767676;
+    position: relative;
     
 }
 .paymentDiv button{
+    position: absolute;
     border: none;
     background: #fff;
     padding: 20px 25px;
-    margin-top: 20px;
-    margin-bottom: 30px;
     font-size: 14px;
     font-weight: 500;
     color: #222;
+
+    
 }  
 .paymentDiv h3{
     font-size: 18px;
@@ -381,15 +381,79 @@ Banner Part End */
      font-size: 14px;
     font-weight: 500;
     color: #222; 
-    padding: 20px;
+    padding-top: 45px;
+    padding-bottom: 20px;
 }
 .paymentDiv h6{
     font-size: 14px;
     font-weight: 400;
-    color: #222; 
+    color: #222;
+    padding-bottom: 20px; 
 }
 .paymentDiv button{
     border: none;
     background: #fff;
 }
+
+/* Copyright Part Start */
+
+/* Copyright Part ENd */
+.langguageCurency{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.copyright h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+}
+.langguage{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.langguage h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+}
+.langguage span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+}
+
+.curency{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+
+}
+.curency h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+}
+.curency span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+}
+hr{
+    padding-bottom: 35px;
+}
+.footerCornerIcon i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    padding: 16px 16px;
+    background-color: #fff;
+}
 /* Footer Part End */
+
+
+/* Demo Slider start */
+
+/* Demo Slider end */
